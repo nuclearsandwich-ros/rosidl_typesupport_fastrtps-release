@@ -1,0 +1,12 @@
+Source: ros-testing-rosidl-typesupport-fastrtps-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-fastcdr, ros-testing-fastrtps, ros-testing-fastrtps-cmake-module, ros-testing-rosidl-cmake, ros-testing-rosidl-runtime-c, ros-testing-rosidl-runtime-cpp, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosidl-typesupport-fastrtps-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake-ros, ros-testing-fastcdr, ros-testing-fastrtps, ros-testing-fastrtps-cmake-module, ros-testing-rmw, ros-testing-rosidl-cmake, ros-testing-rosidl-parser, ros-testing-rosidl-runtime-c, ros-testing-rosidl-runtime-cpp, ros-testing-rosidl-typesupport-interface, ros-testing-ros-workspace
+Description: Generate the C++ interfaces for eProsima FastRTPS.
